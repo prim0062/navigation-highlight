@@ -11,6 +11,7 @@ html {
 body {
   margin: 0;
 }
+
 header {
   margin: 0;
   padding: .25rem;
@@ -19,16 +20,17 @@ header {
 
 footer {
   text-align: center;
+  padding: .75em;
   background-color: #ffe500;
 }
 
 h1 {
   margin: 0;
-  padding: .2em;
+  padding: 0 .2em;
   text-align: center;
   color: #cc1465;
   font-size: 3rem;
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", sans-serif;
 }
 
 main {
@@ -41,12 +43,8 @@ h2 {
   margin: 0;
   color: #cc1465;
   font-size: 1.875rem;
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", sans-serif;
   padding: 1em 0;
-}
-
-footer {
-  padding: .75em;
 }
 
 nav {
@@ -72,7 +70,7 @@ nav a {
 
 .btn li a {
   font-size: 1.125rem;
-  padding: .4em .5em .4em;
+  padding: .4em .5em;
   background-color: #b2a212;
   border-radius: 4px;
 }
@@ -85,7 +83,7 @@ nav a {
   background-color: #b20953;
 }
 
-main img {
+img {
   display: block;
   margin: auto;
   padding-right: 1.6em;
