@@ -19,14 +19,15 @@ header {
 }
 
 footer {
+  font-size: 1rem;
   text-align: center;
-  padding: .75em;
+  padding: .8em;
   background-color: #ffe500;
 }
 
 h1 {
   margin: -.1em 0 0;
-  padding: 0 .2em;
+  padding: 0 .2em .15em;
   text-align: center;
   color: #b20953;
   font-size: 3rem;
@@ -40,16 +41,16 @@ main {
 }
 
 main p {
-  margin: 0 0 .3em;
-  padding-bottom: .3em;
+  margin: .3em 0;
+  padding: .5em 0;
 }
 
 h2 {
-  margin: -.1em 0 0;
+  margin: 0;
   color: #b20953;
   font-size: 1.875rem;
   font-family: "Sigmar One", sans-serif;
-  padding: 1em 0;
+  padding: .75em 0;
 }
 
 nav {
@@ -91,7 +92,7 @@ nav a {
 img {
   display: block;
   margin: auto;
-  padding-right: 1.6em;
+  padding: 0;
   width: 100%;
   max-width: 400px;
 }
